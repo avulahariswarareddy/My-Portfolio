@@ -362,11 +362,11 @@ with tab5:
             Submit=st.form_submit_button("Click to submit")
 
             if Submit:
-                clean_email = Email.strip() and Your_name.strip()
+                clean_email = Email.strip()
                 if not clean_email:
-                    st.warning("Email and Name cannot be empty")
+                    st.warning("Email cannot be empty")
                 elif not re.match(email_validator, clean_email):
-                    st.error("check the email or Name")
+                    st.error("check the email")
                 else:
                     st.balloons()
                     st.success("Your form is been submitted!!")
