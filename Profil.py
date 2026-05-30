@@ -27,7 +27,7 @@ st.set_page_config(
 
 with st.sidebar:
     st.image("https://avatars.githubusercontent.com/u/288869966?s=400&u=8ecfcc15e5d5cff767f8c2e3d4f3be10d860d42a&v=4", caption="Hariswara Reddy")
-    st.title("Hey, I am Harishwar")
+    st.title("Hey, I am Hariswara")
     st.write("👉Python Developer")
     st.write("👉streamlit Creater")
     st.write("👉Student")
@@ -158,7 +158,7 @@ with tab3:
     st.title("What I've Built")
     st.divider()
     st.subheader("1.💰 Expense Tracker & Budget Splitter")
-    with st.expander("Tap to see"):
+    with st.expander("💰Tap to see"):
         
         st.title("💰 Expense Tracker & Budget Splitter")
         st.subheader("Calculate how much each person should pay.")
@@ -208,7 +208,7 @@ with tab3:
 
     st.subheader("2.📏 Body Mass Index Calculator")
 
-    with st.expander("⚖️ Tap to see"):
+    with st.expander("📏 Tap to see"):
 
         st.subheader("BMI Calculator")
 
