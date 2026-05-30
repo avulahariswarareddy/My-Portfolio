@@ -26,7 +26,7 @@ st.set_page_config(
 
 
 with st.sidebar:
-    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_19HRzXDzTr4jpYeBlvs2hJWtW9ilM-Igg&s", caption="Hariswara Reddy")
+    st.image("https://avatars.githubusercontent.com/u/288869966?s=400&u=8ecfcc15e5d5cff767f8c2e3d4f3be10d860d42a&v=4", caption="Hariswara Reddy")
     st.title("Hey, I am Harishwar")
     st.write("👉Python Developer")
     st.write("👉streamlit Creater")
@@ -53,7 +53,7 @@ with st.sidebar:
         st.markdown("[![Github](https://toppng.com/uploads/preview/github-logo-png-download-11659780035ovo4tgsfgr.png)](https://github.com/avulahariswarareddy)")
         st.write("Github")
     with col2:
-        st.markdown("[![Instagram](https://img.magnific.com/premium-vector/modern-badge-logo-instagram-icon_578229-124.jpg?semt=ais_hybrid&w=740&q=80)](https://instagram.com)")
+        st.markdown("[![Instagram](https://img.magnific.com/premium-vector/modern-badge-logo-instagram-icon_578229-124.jpg?semt=ais_hybrid&w=740&q=80)](https://www.instagram.com/harishwar_reddy_avula/)")
         st.write("Instagram")
     with col3:
          st.markdown("[![Whatsapp](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCXHUHLcHEK1YfnI5LoabzhIzSfWAZHDtnw&s)](https://wa.me/qr/NSKTC2IA3AIYM1)")
