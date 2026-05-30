@@ -115,7 +115,7 @@ with tab2:
     st.title("📊Score Records")
     with st.container(border=True):
        
-        st.write(" **11 Class Marks**")
+        st.write(" **11th Class Marks**")
 
         col1, col2= st.columns([1,3])
         with col1:
@@ -407,7 +407,7 @@ with tab5:
                     st.success("Your form is been submitted!!")
 
 st.divider()
-st.write("💻 Designed & Developed by Avula Hariswara Reddy")
+st.write("💻 Designed & Developed by **Avula Hariswara Reddy**")
 st.write("Python • Streamlit • Continuous Learning")
 st.write(">Turning ideas into reality through code.")
 st.write("© 2026 All Rights Reserved")
