@@ -407,7 +407,7 @@ with tab5:
                     st.success("Your form is been submitted!!")
 
 st.divider()
-st.write("💻 Designed & Developed by Harishwar Reddy")
+st.write("💻 Designed & Developed by Avula Hariswara Reddy")
 st.write("Python • Streamlit • Continuous Learning")
 st.write(">Turning ideas into reality through code.")
 st.write("© 2026 All Rights Reserved")
