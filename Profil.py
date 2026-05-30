@@ -111,31 +111,48 @@ with tab2:
     st.write("• Exploring modern technologies, software development concepts, and problem-solving techniques.")
     st.write("• Committed to continuous learning and growth with the goal of becoming a skilled software developer.")
     st.divider()
+    
     st.title("📊Score Records")
     with st.container(border=True):
        
-        st.write(" **CGPA Progress (Scale 100.0)**")
-
+        st.write(" **11 Class Marks**")
 
         col1, col2= st.columns([1,3])
         with col1:
-            st.write("10th Class")
+            st.write("French")
         with col2:
-            st.progress(0.80, text="80%")
+            st.progress(0.95, text="95/100")
 
 
         col1, col2 = st.columns([1,3])
         with col1:
-            st.write("1nd Year")
+            st.write("English")
         with col2:
-            st.progress(0.90, text="90%")
+            st.progress(0.91, text="91/100")
 
 
         col1, col2 = st.columns([1,3])
         with col1:
-            st.write("3rd Year")
+            st.write("Physics")
         with col2:
-            st.progress(1.0, text="100%")
+            st.progress(1.0, text="60/60")
+        col1, col2 = st.columns([1,3])
+
+        with col1:
+            st.write("Chemistry")
+        with col2:
+            st.progress(1.0, text="60/60")
+        col1, col2 = st.columns([1,3])
+
+        with col1:
+            st.write("Mathematics 1A")
+        with col2:
+            st.progress(0.986, text="74/75")
+
+        with col1:
+            st.write("Mathematics 1B")
+        with col2:
+            st.progress(1.0, text="75/75")
 
 with tab3:
     st.title("What I've Built")
